@@ -13,7 +13,7 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       // overwrite default .html entry
-      input: '../quirky-mentors/server/server.js',
+      input: './index.html',
     },
   },
   server: {

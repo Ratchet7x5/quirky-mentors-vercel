@@ -16,11 +16,4 @@ export default defineConfig({
       input: './index.html',
     },
   },
-  server: {
-    //origin: 'http://127.0.0.1:3000',
-    proxy: {
-      // string shorthand: http://localhost:5173/foo -> http://localhost:4567/foo
-      '/api': 'http://localhost:3000',
-    },
-  },
 })

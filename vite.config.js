@@ -16,4 +16,8 @@ export default defineConfig({
       input: './index.html',
     },
   },
+  server: {
+    open: './dist/index.html',
+    port: 3000,
+  },
 })
